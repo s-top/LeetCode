@@ -15,3 +15,5 @@ class Solution(object):
             if pair in nums[i + 1:]:
                 return [i, nums.index(pair, i + 1)]
         return None
+# Example:
+# Example:
